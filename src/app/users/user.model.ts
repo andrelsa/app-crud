@@ -14,4 +14,15 @@ export interface ResponseUsers {
   data: User[];
 }
 
+// Modelos para criacao de usuario
+export interface RequestCreate {
+  name: string;
+  job: string;
+}
 
+export interface ResponseCreate {
+  name: string;
+  job: string;
+  id: string;
+  createdAt: Date;
+}
