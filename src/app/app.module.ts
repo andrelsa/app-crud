@@ -9,6 +9,8 @@ import {UsersComponent} from './users/users.component';
 import {HttpClientModule} from '@angular/common/http';
 import { CreateUserComponent } from './users/create-user/create-user.component';
 import {FormsModule} from '@angular/forms';
+import { UpdateUserComponent } from './users/update-user/update-user.component';
+import { DeleteUserComponent } from './users/delete-user/delete-user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {FormsModule} from '@angular/forms';
     Pagina01Component,
     Pagina02Component,
     UsersComponent,
-    CreateUserComponent
+    CreateUserComponent,
+    UpdateUserComponent,
+    DeleteUserComponent
   ],
   imports: [
     BrowserModule,

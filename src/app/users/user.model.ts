@@ -26,3 +26,20 @@ export interface ResponseCreate {
   id: string;
   createdAt: Date;
 }
+
+// Modelos para o getUser (Detalhe)
+export interface ResponseUser {
+  data: User;
+}
+
+// Modelos para edicao de usuario
+export interface RequestUpdate {
+  name: string;
+  job: string;
+}
+
+export interface ResponseUpdate {
+  name: string;
+  job: string;
+  updateAt: Date;
+}
